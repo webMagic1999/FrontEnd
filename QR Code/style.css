@@ -1,0 +1,52 @@
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.container{
+    background: #bfe2ff;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    height: 100vh;
+}
+
+.card_body{
+    padding: 0.8rem;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    display: grid;
+    gap: 2rem;
+    width: 100%;
+    max-width:320px;
+    place-items: center;
+    box-shadow: 5px 5px 20px #ffffff;
+}
+.card_body img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card_body p{
+    text-align: center;
+}
+
+.card_body :nth-child(2){
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
